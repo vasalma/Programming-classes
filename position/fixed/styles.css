@@ -1,0 +1,35 @@
+/*
+    Fixed positioning
+    -------------------
+    The element is positioned absolutely according to the viewport. The element is removed from the normal document flow and does not affect the layout of other elements. The element will be positioned according to the top, right, bottom, left properties. The element can be positioned outside of its containing block if so desired.
+*/
+
+.position-container {
+    width: 100%;
+    height: 300px;
+    /* position: relative; */
+    border: 2px dashed #ccc;
+    background-color: #f9f9f9;
+    overflow: hidden; 
+  }
+  
+  .position-static {
+    position: static;
+    top: auto;
+    left: auto;
+    background-color:yellow;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  
+  /* Fixed positioning */
+  .position-fixed {
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    background-color: #ffe6e6; 
+    padding: 10px;
+    border: 1px solid #a94442;
+  }
+  

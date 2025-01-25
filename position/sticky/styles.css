@@ -1,0 +1,25 @@
+
+/*
+    Sticky positioning
+    -------------------
+    The element is positioned relative to its containing block until its containing block crosses a specified threshold (e.g. the top or bottom of the viewport). At that point, the element is fixed to the specified position. The element will not be taken out of the document flow, meaning it will still take up space in the document and affect the layout of other elements. The element can be positioned outside of its containing block if so desired.
+*/
+
+
+
+.position-container {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    border: 2px dashed #ccc;
+    background-color: #f9f9f9;
+    overflow: auto;
+  }
+  
+  .position-sticky {
+    position: sticky;
+    top: 0;
+    background-color: #e6e6ff; /* LightBlue */
+    padding: 10px;
+    border: 1px solid #204d74;
+  }
