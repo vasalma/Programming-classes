@@ -1,0 +1,38 @@
+body {
+    min-height: 800px;
+    border: 8px solid black;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around; /* Controls the main axis (horizontally) just when its comes to row */
+    align-items: center; /* Control the cross axis (vertically) just when its comes to row */
+    height: 100vh; /* Set the height to 100% of the viewport height */
+}  
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    font-size: 30px;
+
+} 
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* Control the main axis (vertically) just when its comes to column */
+    align-items: flex-end; /* Controls the cross axis (horizontally) just when its comes to column */
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    
+}
+
+.box2 {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    font-size: 30px;
+
+}
