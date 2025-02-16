@@ -6,7 +6,7 @@ body {
 
 .container {
     display: flex;
-    flex-direction:row;
+    flex-direction: row-reverse;
     justify-content: space-around; /* Controls the main axis (horizontally) just when its comes to row */
     align-items: center; /* Control the cross axis (vertically) just when its comes to row */
     height: 100vh; /* Set the height to 100% of the viewport height */
